@@ -1,0 +1,22 @@
+Package: twostepAKSA
+Type: Package
+Title: Two-step Test for Predictive Biomarkers with Zero Inflation
+Version: 0.1.0
+Authors@R: person("Miles", "Xi", email = "nxi@ucla.edu", role = c("aut","cre"))
+Description: Implements a two-step permutation test for continuous predictive
+    biomarkers with zero inflation. Part A targets the spike at zero; Part B
+    scans the positive tail using an Averaged Kolmogorov–Smirnov Approach(AKSA).
+    Includes Fisher and Brown combinations with permutation-calibrated p-values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports:
+    stats,
+    utils,
+    Rcpp,
+    RcppArmadillo
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
