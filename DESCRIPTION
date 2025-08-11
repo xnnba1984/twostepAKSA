@@ -1,7 +1,7 @@
 Package: twostepAKSA
 Type: Package
 Title: Two-step Test for Predictive Biomarkers with Zero Inflation
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: person("Miles", "Xi", email = "nxi@ucla.edu", role = c("aut","cre"))
 Description: Implements a two-step permutation test for continuous predictive
     biomarkers with zero inflation. Part A targets the spike at zero; Part B
