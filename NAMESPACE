@@ -2,3 +2,5 @@
 
 export(aksa_test)
 export(twostep_test)
+importFrom(Rcpp,evalCpp)
+useDynLib(twostepAKSA, .registration = TRUE)
